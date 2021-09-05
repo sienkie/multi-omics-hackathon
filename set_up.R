@@ -12,7 +12,6 @@ library(ComplexHeatmap)
 library(ggalluvial)
 library(ggpubr)
 library(FactoMineR)
-library(NMF)
 library(PINSPlus)
 library(iClusterPlus)
 
