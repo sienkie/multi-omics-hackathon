@@ -14,7 +14,8 @@ library(ggpubr)
 library(FactoMineR)
 library(PINSPlus)
 library(iClusterPlus)
-
+library(RColorBrewer)
+library(tsne)
 
 # Install Bioconductor packages
 if (!requireNamespace("BiocManager", quietly = TRUE))
@@ -24,4 +25,4 @@ BiocManager::install("ComplexHeatmap")
 BiocManager::install("iClusterPlus")
 
 # Install other required packages
-install.packages(c('plyr', 'tidyverse', 'ggalluvial', 'ggpubr', 'FactoMineR', 'NMF', 'PINSPlus'))
+install.packages(c('plyr', 'tidyverse', 'ggalluvial', 'ggpubr', 'FactoMineR', 'PINSPlus', 'RColorBrewer', 'tsne'))
