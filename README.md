@@ -4,7 +4,19 @@ This repository contains materials for **Multi-omics data integration** hackatho
 
 ### Running the tutorial materials
 
-To run the tutorial materials locally you need to install Jupyter Notebook, R from CRAN-R and IRKernel which enables the usage of R from the notebooks. 
+To run the tutorial materials you will need:
+
+1. The Jupyter notebook with the R language support:
+
+  - Jupyter Notebook [(installation information)](https://jupyter.org/install)
+  - R from CRAN-R [(download from here)](https://cloud.r-project.org)
+  - IRKernel which enables the usage of R from the notebooks [(see tutorial here)](https://towardsdatascience.com/how-to-run-r-scripts-in-jupyter-15527148d2a)
+
+2. R packages (see the instructions in the *set_up.R* file)
+
+3. python3.6+ [(download from here)](https://www.python.org/downloads)
+
+4. SUMO: the subtyping tool for multi-omic data [(installation information)](https://github.com/ratan-lab/sumo)
 
 ### Resources & Aknowledgements
 
