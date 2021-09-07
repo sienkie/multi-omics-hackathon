@@ -1,7 +1,7 @@
 # This file contains intallation instructions for packages required to run Find_molecular_subtypes_TCGA.ipynb. 
 
 # We will need:
-#  - tidyverse and plyr for data exploration and wrangling,
+#  - tidyverse, reticulate and plyr for data exploration and wrangling,
 #  - ComplexHeatmap, ggalluvial and ggpubr for plotting,
 #  - FactoMineR, NMF, PINSPlus and iClusterPlus for data integration.
 
@@ -16,6 +16,9 @@ library(PINSPlus)
 library(iClusterPlus)
 library(RColorBrewer)
 library(tsne)
+library(reticulate)
+library(survival)
+library(survminer)
 
 # Install Bioconductor packages
 if (!requireNamespace("BiocManager", quietly = TRUE))
@@ -25,4 +28,5 @@ BiocManager::install("ComplexHeatmap")
 BiocManager::install("iClusterPlus")
 
 # Install other required packages
-install.packages(c('plyr', 'tidyverse', 'ggalluvial', 'ggpubr', 'FactoMineR', 'PINSPlus', 'RColorBrewer', 'tsne'))
+install.packages(c('plyr', 'tidyverse', 'ggalluvial', 'ggpubr', 'FactoMineR', 'PINSPlus', 'RColorBrewer', 'tsne', 
+                   'reticulate', 'survival', 'survminer'))
