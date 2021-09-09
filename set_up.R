@@ -21,6 +21,8 @@ library(survival)
 library(survminer)
 library(factoextra)
 library(GGally)
+library(enrichR)
+
 
 # Install Bioconductor packages
 if (!requireNamespace("BiocManager", quietly = TRUE))
@@ -31,4 +33,4 @@ BiocManager::install("iClusterPlus")
 
 # Install other required packages
 install.packages(c('plyr', 'tidyverse', 'ggalluvial', 'ggpubr', 'FactoMineR', 'PINSPlus', 'RColorBrewer', 'tsne', 
-                   'reticulate', 'survival', 'survminer', 'factoextra', 'GGally'))
+                   'reticulate', 'survival', 'survminer', 'factoextra', 'GGally', 'enrichR'))
