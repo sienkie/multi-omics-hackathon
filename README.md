@@ -1,8 +1,10 @@
 # Multi-omics data integration
 
-This repository contains materials for **Multi-omics data integration** hackathon for [#NGSprint2021](https://ngschool.eu/ngsprint).
+This repository contains materials for **Multi-omics data integration** hackathon for [#NGSprint2021](https://ngschool.eu/ngsprint) and [#NGSchool2022: Machine Learning in Computational Biology](https://ngschool.eu/ngschool2022).
 
 ### Running the tutorial materials
+
+#### Option 1: Local 
 
 To run the tutorial materials you will need:
 
@@ -17,6 +19,28 @@ To run the tutorial materials you will need:
 3. python3.6+ [(download from here)](https://www.python.org/downloads)
 
 4. SUMO: the subtyping tool for multi-omic data [(installation information)](https://github.com/ratan-lab/sumo)
+
+#### Option 2: Docker container
+
+To run the tutorial materials in docker environment you will need to:
+
+1. Install Docker Engine (https://docs.docker.com/engine/install/ubuntu)
+
+2. Get image:
+
+    - online: 
+    
+    ```
+    docker run --rm -d -p 8585:8888 -e JUPYTER_TOKEN=ngs22 -v ~/ngs22:/opt/app/data/ --name ngs22_reticulate ngschool/ngs22_reticulate:clustering
+    ```
+    
+    - local:
+
+    ```
+    docker run --rm -d -p 8585:8888 -e JUPYTER_TOKEN=ngs22 -v ~/ngs22:/opt/app/data/ --name ngs22_reticulate docker.ngschool.eu/ngs22_reticulate:clustering
+    ```
+    
+3. JupyterLab runs on localhost:8585
 
 ### Resources & Aknowledgements
 
