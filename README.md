@@ -1,6 +1,6 @@
 # Multi-omics data integration
 
-This repository contains materials for **Multi-omics data integration** hackathon for [#NGSprint2021](https://ngschool.eu/ngsprint) and [#NGSchool2022: Machine Learning in Computational Biology](https://ngschool.eu/ngschool2022).
+This repository contains materials for **Multi-omics data integration hackathon** held during [#NGSprint2021](https://ngschool.eu/ngsprint), [#NGSchool2022: Machine Learning in Computational Biology](https://ngschool.eu/ngschool2022), and [#NGSchool2023: Advances in Computational Biology](https://ngschool.eu/ngschool2022).
 
 ### Running the tutorial materials
 
