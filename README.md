@@ -4,6 +4,8 @@ This repository contains materials for **Multi-omics data integration hackathon*
 
 ### Running the tutorial materials
 
+First clone or download and unpack this repository.
+
 #### Option 1: Local 
 
 To run the tutorial materials you will need:
@@ -26,7 +28,7 @@ To run the tutorial materials in docker environment you will need to:
 
 1. Install Docker Engine (https://docs.docker.com/engine/install/ubuntu)
 
-2. Get image:
+2. Get the image. **Important**: *'~/ngs22'* path (the first part of *-v* argument) should be changed into the path to the *multi-omics-hackathon* directory you cloned from this repository:
 
     - online: 
     
